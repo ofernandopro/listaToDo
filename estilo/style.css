@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #ccc;
+}
+
+#app {
+  max-width: 900px;
+  width: 100%;
+  padding: 40px 4%;
+  background: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  box-shadow: 0px 15px 20px rgb(215, 215, 215);
+  border-radius: 7px;
+}
+
+#app h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-left: -20px;
+  color: #14275c;
+}
+
+#app li {
+  margin-bottom: 20px;
+}
+
+#app input[type="text"] {
+  padding: 10px 30px;
+  background-color: #333333;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 17px;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+#app button {
+  padding: 12px 20px;
+  background-color: #3ac961;
+  border: 0;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: -50px;
+  border-bottom: 5px solid #268540;
+  font-weight: bold;
+}
+
+#app a {
+  text-decoration: none;
+  color: #990000;
+}
