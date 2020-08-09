@@ -1,2 +1,3 @@
-# listaToDo
-Aplicações simples de uma lista To Do em puro JavaScript.
+# To Do List
+
+Simple application of a To Do list in JavaScript.
